@@ -1,0 +1,106 @@
+6. Completar los espacios en blanco.
+(a) _______ agrega archivos al próximo commit.
+(b) El comando git _______  muestra un registro con los commits de un _______  .
+(c) _______  crea un repositorio en el directorio de trabajo.
+(d) Para subir un _______  local a uno remoto usamos git _______  .
+(e) Las dos maneras de obtener un repositorio de Git son o usando _______  en un directorio, o
+un repositorio existente con _______  .
+(f) Si quiero hacer cambios en un _______  compartido por un equipo de trabajo es conveniente hacerlos
+en una _______  .
+(g) Cuando fusionamos dos ramas puede haber un _______  si el mismo _______  fue modificado en
+ambas ramas.
+(h) Para resolver un conflicto de _______  hay que editar el _______  que genera el conflicto y marcarlo
+como resuelto con  _______ .
+(i) No podemos realizar un _______  a un remoto si nuestra copia local no está actualizada con los últimos _______ 
+del repositorio remoto. En ese caso tendremos que realizar un _______  primero antes
+de subir nuestro trabajo.
+
+7. Completar lo que falta en los siguientes comandos de Git.
+(a) git add _______ (agrega todos los archivos del directorio al staging area)
+(b) git status _______ (versión abreviada del estado del repositorio)
+(c) git _______ -10  (ver los últimos 10 commits)
+(d) git commit _______ (arregla el último commit)
+(e) git _______ (agrega index.html y el directorio css al index)
+(f) git checkout _______ (crea y cambia a una rama llamada new-branch)
+(g) git _______ "Juan Perez" (configura el nombre de usuario a “Juan Perez”)
+(h) git _______ (muestra las URLs asociadas con cada remoto)
+(i) git _______ (sincroniza la rama en la que estoy con la rama remota rastreada)
+(j) git _______ (fusiona la rama hotfix con la rama en la que estoy parado)
+
+8. ¿Qué comando de Git usarías para ver qué archivos están en el staging area?
+git status
+
+9. ¿Cómo podemos ver un registro de los últimos 3 commits de un repositorio?
+git log -3
+
+10. ¿Qué comando de Git usarías para agregar un archivo llamado LICENSE al próximo commit?
+git add LICENSE
+
+11. ¿Cómo podemos hacer un commit en Git en un solo comando si no hay archivos nuevos para rastrear?
+git commit --allow-empty
+
+12. ¿Cómo eliminar un remoto llamado github?
+git remote remove github
+
+13. Borrar la rama llamada hotfix.
+git branch -d hotfix
+
+14. Mostrar un registro de commits de a uno por línea y dibujar un gráfico mostrando todas las ramas.
+git log --oneline --graph
+
+15. ¿Cómo cambiar el mensaje del último commit?.
+git commit --amend
+
+16. ¿Cómo crear una rama llamada create-user-form y cambiar a esa rama en un sólo comando?
+git checkout -b create-user-form
+
+17. Subir la rama main del repositorio a un remoto llamado heroku. Setear la rama remota como “rastreada”.
+git push -u heroku main
+
+18. Dar una lista de todas las ramas, incluyendo ramas remotas rastreadas.
+git branch -a
+
+
+--EJERCICIO 6--
+(a) GIT ADD agrega archivos al próximo commit.
+(b) El comando git LOG muestra un registro con los commits de un REPOSITORIO.
+(c) GIT INIT crea un repositorio en el directorio de trabajo.
+(d) Para subir un REPOSITORIO local a uno remoto usamos git PUSH.
+(e) Las dos maneras de obtener un repositorio de Git son clonando usando GIT CLONE en un directorio, o creando uno nuevo a partir de un repositorio existente con GIT INIT.
+(f) Si quiero hacer cambios en un PROYECTO compartido por un equipo de trabajo es conveniente hacerlos en una RAMA.
+(g) Cuando fusionamos dos ramas puede haber un CONFLICTO si el mismo ARCHIVO fue modificado en ambas ramas.
+(h) Para resolver un conflicto de FUSION hay que editar el ARCHIVO que genera el conflicto y marcarlo como resuelto con GIT ADD.
+(i) No podemos realizar un PUSH a un remoto si nuestra copia local no está actualizada con los últimos CAMBIOS del repositorio.
+En ese caso tendremos que realizar un PULL  primero antes de subir nuestro trabajo.
+
+--EJERCICIO 7--
+(a) git add . (agrega todos los archivos del directorio al staging area)
+El punto (.) indica "todos los archivos".
+
+(b) git status -s (versión abreviada del estado del repositorio)
+La opción -s muestra un resumen conciso del estado de los archivos.
+
+(c) git log -10 (ver los últimos 10 commits)
+La opción -10 limita la salida a los 10 commits más recientes.
+
+(d) git commit --amend (arregla el último commit)
+La opción --amend te permite modificar el último commit.
+
+(e) git add index.html css/ (agrega index.html y el directorio css al index)
+Puedes agregar archivos y directorios de forma individual.
+
+(f) git checkout -b new-branch (crea y cambia a una rama llamada new-branch)
+La opción -b crea una nueva rama y al mismo tiempo cambia a ella.
+
+(g) git config --global user.name "Juan Perez" (configura el nombre de usuario a “Juan Perez”)
+La opción --global establece la configuración a nivel global para todos tus repositorios.
+
+(h) git remote -v (muestra las URLs asociadas con cada remoto)
+La opción -v muestra las URLs tanto para push como para fetch.
+
+(i) git pull (sincroniza la rama en la que estoy con la rama remota rastreada)
+Este comando actualiza tu rama local con los cambios del remoto.
+
+(j) git merge hotfix (fusiona la rama hotfix con la rama en la que estoy parado)
+Este comando combina los cambios de la rama hotfix con la rama actual.
+
