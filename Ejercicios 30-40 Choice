@@ -1,0 +1,88 @@
+30. ¿Qué comando sirve para pasar archivos del staging area al repositorio?
+□ git add
+□ git stage
+□ git commit ☑️
+□ git restore
+El comando git commit pasa los archivos del staging area al repositorio, creando un nuevo commit con los cambios preparados.
+
+
+31. El comando para mostrar la diferencia entre lo que está preparado (staged) y lo que está en el directorio de trabajo es
+□ git diff ☑️
+□ git diff --staged
+□ git status -s
+□ git log --stat
+
+
+
+32. ¿Cuál de los siguientes comandos sirve para cambiar a una rama llamada feature?
+□ git switch feature ☑️
+□ git checkout feature ☑️
+□ git checkout -b feature
+□ Todas son correctas 
+
+
+
+33. ¿Qué comando usamos para bajar un repositorio de GitHub a nuestra computadora?
+□ git pull https://github.com/user/repo
+□ git clone https://github.com/user/repo ☑️
+□ git push https://github.com/user/repo
+□ git download https://github.com/user/repo
+
+
+
+34. Los archivos que van a entrar en el próximo commit están en
+□ cualquier lugar.
+□ el directorio de trabajo.
+□ el repositorio.
+□ el staging area. ☑️
+
+
+
+35. ¿Qué comando sirve para renombrar una rama en Git?
+□ git remote rm
+□ git branch -D
+□ git branch -m ☑️
+□ git rebase
+git branch -m old-name new-name
+
+
+36. ¿Qué comando sirve para mostrar el parche de cada commit?
+□ git log -p ☑️
+□ git log
+□ git remote -v
+□ git branch
+Muestra el historial de commits junto con los parches (cambios exactos) introducidos en cada commit.
+
+
+37. ¿Qué es lo que hace el comando git clone?
+□ Crea una copia local de un repositorio.
+□ Crea un directorio de trabajo.
+□ Crea una nueva rama.
+□ Tanto la opción 1 como la 2. ☑️
+
+
+
+38. ¿Qué comando sirve para quitar un archivo del staging area?
+□ git restore archivo
+□ git restore --staged archivo ☑️
+□ git rm archivo
+□ git unstage archivo
+Quita un archivo del staging area, devolviéndolo al estado del directorio de trabajo.
+
+
+39. Estamos en la rama feature y recién hicimos un commit. Ahora queremos volver a master y fusionar ambas ramas. ¿Qué comando usamos?
+□ git checkout master; git feature merge
+□ git checkout -b master 
+□ git merge feature
+□ git switch master; git merge feature ☑️
+Para fusionar las ramas, primero cambias a master con git switch master y luego usas git merge feature para fusionar los cambios de feature.
+
+
+40. ¿Qué comando sirve para ver un registro de los parches introducidos por cada commit en el archivo index.html?
+□ git log -p index.html ☑️
+□ git log --stat index.html
+□ git log -p
+□ git diff index.html
+Muestra el historial de commits junto con los parches aplicados específicamente al archivo index.html.
+
+
