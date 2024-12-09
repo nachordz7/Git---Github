@@ -1,0 +1,22 @@
+29. Indicar verdadero o falso.
+(a) Podemos usar comodines con git add.  VERDADERO
+
+(b) Git guarda los cambios que hacemos a los archivos automáticamente. FALSO
+
+(c) El comando git pull sirve para que el repositorio en el que estamos trabajando se sincronize con el repositorio remoto. VERDADERO
+
+(d) Una línea en el .gitignore que diga !a.out significa que no estamos rastreando el archivo a.out. FALSO
+
+(e) Staging area e index son sinónimos. VERDADERO
+
+(f) Cuándo editamos un archivo que ya preparamos los cambios se reflejan automáticamente en el área de preparación. FALSO
+
+(g) La única manera de obtener un repositorio de Git es con git init.  FALSO
+
+(h) Si dos personas trabajan en la misma rama del mismo remoto pero en distintos archivos es imposible generar un conflicto de merge. VERDADERO
+
+(i) Git no me deja cambiar de rama con el árbol de trabajo (working tree) modificado. FALSO
+
+(j) Los forks y los PRs son características de GitHub, no de Git. VERDADERO
+
+(k) Para colaborar en un proyecto al que no tenemos acceso de escritura podemos hacer un pull request y luego un fork. FALSO
