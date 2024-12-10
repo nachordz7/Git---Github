@@ -1,0 +1,91 @@
+Evaluación de Git:
+¿Qué comando se usa para inicializar un repositorio vacío de Git en un directorio?
+a) git start
+b) git init ☑️ Explicación: El comando git init inicializa un repositorio vacío en el directorio actual.
+c) git create
+d) git config
+
+¿Cuál de las siguientes opciones es un archivo oculto que Git usa para almacenar información sobre un repositorio?
+a) .git ☑️   Explicación: .git es el directorio que contiene toda la información interna del repositorio.
+b) .gitignore
+c) .gitconfig
+d) .gitcommit
+
+Si deseas comprobar el estado de los archivos en tu directorio de trabajo, ¿qué comando usas?
+a) git status ☑️   Explicación: git status muestra el estado actual de los archivos, indicando si están modificados, agregados o listos para ser comprometidos.
+b) git check
+c) git log
+d) git diff
+
+¿Qué significa el comando git add <archivo>?
+a) Se agrega un archivo nuevo al repositorio.
+b) El archivo se guarda en el área de preparación (staging area). ☑️   Explicación: git add coloca los archivos en el área de preparación para ser incluidos en el próximo commit.
+c) El archivo se sube a un repositorio remoto.
+d) El archivo se elimina del repositorio.
+
+¿Qué comando usas para crear un nuevo commit en Git?
+a) git update
+b) git commit  ☑️   Explicación: git commit crea un commit con los cambios que están en el área de preparación.
+c) git stage
+d) git push
+
+¿Cuál es el propósito de la opción --global al ejecutar el comando git config?
+a) Establecer configuraciones solo para el repositorio actual.
+b) Establecer configuraciones para el sistema. 
+c) Establecer configuraciones para todos los repositorios del usuario. ☑️ Explicación: La opción --global configura los valores para todos los repositorios del usuario en su sistema, no solo para uno específico.
+d) Establecer configuraciones para un archivo específico.
+
+¿Qué hace el archivo .gitignore?
+a) Asegura que los archivos mencionados en él no se agreguen al repositorio. ☑️   Explicación: El archivo .gitignore le indica a Git qué archivos o directorios deben ser ignorados y no añadidos al repositorio.
+b) Desactiva el control de versiones en el repositorio.
+c) Muestra los cambios en el repositorio.
+d) Guarda una lista de todos los commits realizados.
+
+¿Qué comando se utiliza para ver los cambios entre el estado del directorio de trabajo y el área de preparación (staging area)?
+a) git show
+b) git diff ☑️   Explicación: git diff muestra las diferencias entre los archivos modificados en el directorio de trabajo y los que están preparados para el commit.
+c) git commit
+d) git log
+
+¿Cuál es el archivo que contiene la configuración global de Git?
+a) .gitignore
+b) .gitconfig ☑️  Explicación: .gitconfig contiene la configuración global del usuario, como su nombre y correo electrónico.
+c) .gitsettings
+d) .gitlog
+
+¿Qué comando se usa para cambiar a una rama llamada "feature" en Git?
+a) git checkout feature
+b) git switch feature
+c) git branch feature
+d) Ambos a y b ☑️  Explicación: git checkout feature y git switch feature son ambos comandos válidos para cambiar a una rama llamada "feature".
+
+
+¿Cómo puedes ver el historial de commits de un repositorio?
+a) git status
+b) git log   ☑️ Explicación: git log muestra el historial de commits, permitiendo ver qué cambios se han realizado a lo largo del tiempo.
+c) git history
+d) git show
+
+¿Qué comando se utiliza para agregar un archivo a un commit en el área de preparación (staging area)?
+a) git add ☑️   Explicación: git add se usa para agregar archivos al área de preparación, mientras que git commit es el comando que crea el commit.
+b) git push
+c) git commit 
+d) git stage
+
+¿Cuál es el propósito del archivo .gitignore?
+a) Ignorar cambios de configuración.
+b) Evitar que se suban al repositorio archivos no deseados. ☑️  Explicación: El archivo .gitignore ayuda a evitar que archivos no deseados sean rastreados y subidos al repositorio.
+c) Configurar la identidad del autor.
+d) Registrar los cambios de código.
+
+¿Qué comando se usa para eliminar un archivo de un repositorio, pero mantenerlo en el directorio de trabajo?
+a) git rm --cached ☑️  Explicación: El archivo .gitignore ayuda a evitar que archivos no deseados sean rastreados y subidos al repositorio.
+b) git remove 
+c) git delete
+d) git forget
+
+¿Qué significa el comando git status?
+a) Muestra el historial de cambios.
+b) Muestra los cambios entre el área de preparación y el repositorio.
+c) Muestra el estado actual de los archivos en el directorio de trabajo y el área de preparación. ☑️ Explicación: git status muestra información sobre los archivos modificados, agregados, y los que están listos para ser comprometidos.
+d) Muestra el contenido de los archivos.
