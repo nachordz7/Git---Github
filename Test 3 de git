@@ -1,0 +1,55 @@
+(10 PUNTOS) ¿Qué comando se utiliza para verificar los cambios realizados en el directorio de trabajo en comparación con el área de preparación?
+□ git show
+□ git diff ✅
+□ git status
+□ git log
+
+(5 PUNTOS) ¿Qué comando de Git se utiliza para eliminar un archivo del área de preparación pero mantenerlo en el directorio de trabajo?
+□ git rm --cached ✅
+□ git rm
+□ git unstage
+□ git delete
+
+(5 PUNTOS) ¿Qué archivo permite ignorar ciertos archivos o directorios en un repositorio?
+□ .gitignore ✅
+□ .gitconfig
+□ .gitkeep
+□ .git
+
+(10 PUNTOS) ¿Qué comando te permite ver los cambios realizados en un archivo específico desde el último commit?
+□ git diff <archivo> ✅ Compara el archivo especificado en el directorio de trabajo con su última versión en el repositorio. Es ideal para ver cambios detallados antes de preparar o comprometer los archivos.
+□ git log <archivo> 
+□ git status <archivo>
+□ git show <archivo>
+
+(10 PUNTOS) ¿Qué comando fusiona los cambios de una rama a otra?
+□ git merge ✅  git merge toma los cambios de una rama y los integra en la rama actual.
+□ git push
+□ git branch
+□ git checkout
+
+(10 PUNTOS) ¿Qué comando crea un nuevo commit pero reemplaza el mensaje del commit anterior?
+□ git commit --amend ✅
+□ git commit --replace
+□ git amend
+□ git update
+
+(10 PUNTOS) ¿Qué significa el comando git branch -d nombre_rama?
+□ Borra una rama incluso si tiene cambios no fusionados.
+□ Borra una rama localmente solo si fue fusionada previamente. ✅
+□ Borra una rama del repositorio remoto.
+□ Borra la rama y crea una nueva con el mismo nombre.
+
+(15 PUNTOS) Estoy trabajando en la rama "feature". Antes de fusionar los cambios con la rama "main", quiero ver un gráfico de las ramas y commits. ¿Qué comando ejecuto?
+git log --graph
+
+(15 PUNTOS) Indicar verdadero o falso:
+(A) Puedes fusionar dos ramas aunque haya conflictos.  VERDADERO Puedes fusionarlas, pero los conflictos deben resolverse manualmente antes de finalizar la operación.
+(B) El comando git pull combina git fetch y git merge.  VERDADERO Este comando trae los cambios del remoto (fetch) y los combina automáticamente (merge).
+(C) Es obligatorio que el repositorio remoto tenga una rama llamada main. FALSO Un repositorio remoto puede tener cualquier rama predeterminada (por ejemplo, master o develop).
+
+(10 PUNTOS) ¿Qué comando muestra un registro detallado de todos los commits con sus mensajes?
+□ git status 
+□ git log   ✅   git log muestra un historial detallado de commits, incluyendo mensajes, autores, y fechas.
+□ git diff
+□ git commit
