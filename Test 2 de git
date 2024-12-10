@@ -1,42 +1,45 @@
-(10 PUNTOS) El comando git _______________ se utiliza para crear una nueva rama en el repositorio.
+(10 PUNTOS) El comando git ______branch ramanueva______ se utiliza para crear una nueva rama en el repositorio.
 
 (5 PUNTOS) ¿Qué comando de Git sirve para ver el estado actual del directorio de trabajo y el área de preparación?
-□ log
+□ log 
 □ diff
-□ status
+□ status ☑️
 □ show
 
 (5 PUNTOS) ¿Qué comando permite agregar un repositorio remoto llamado origin?
-□ git remote add origin [URL]
+□ git remote add origin [URL] ☑️
 □ git remote connect origin [URL]
 □ git remote init origin [URL]
 □ git push origin [URL]
 
 (10 PUNTOS) ¿Qué comando permite combinar los cambios de una rama en otra?
-□ merge
+□ merge ☑️
 □ commit
 □ push
 □ rebase
 
 (10 PUNTOS) ¿Qué comando permite cambiar el nombre de una rama?
-□ git rename <branch>
+□ git rename <branch> 
 □ git branch -D <branch>
-□ git branch -m <nuevo_nombre>
+□ git branch -m <nuevo_nombre>  ☑️
 □ git switch -m <nuevo_nombre>
 
 (10 PUNTOS) ¿Cuál es la diferencia entre git fetch y git pull?
-□ Ambos traen cambios del remoto, pero el primero no los fusiona automáticamente.
+□ Ambos traen cambios del remoto, pero el primero no los fusiona automáticamente. ☑️
 □ Ambos traen cambios y los fusionan automáticamente.
 □ Uno se utiliza solo para repositorios locales y el otro solo para remotos.
 □ No hay diferencia; son comandos equivalentes.
 
 (10 PUNTOS) ¿Qué comando permite revertir un archivo en el directorio de trabajo a su estado en el último commit?
+git restore <archivo>
 
 (15 PUNTOS) Estoy trabajando en una rama llamada feature. Antes de subir los cambios al remoto, quiero ver un resumen de los commits realizados y verificar los mensajes. ¿Qué comando ejecuto?
+git log --oneline
 
 (15 PUNTOS) Indicar verdadero o falso:
-(A) Solo los archivos rastreados pueden incluirse en un commit.
-(B) El archivo .gitignore afecta únicamente a los archivos rastreados.
-(C) Es obligatorio fusionar todas las ramas antes de realizar un pull.
+(A) Solo los archivos rastreados pueden incluirse en un commit. VERDADERO
+(B) El archivo .gitignore afecta únicamente a los archivos rastreados. FALSO
+(C) Es obligatorio fusionar todas las ramas antes de realizar un pull. FALSO
 
 (10 PUNTOS) ¿Qué hace el comando git stash?
+guarda temporalmente los cambios realizados en el código de trabajo.
