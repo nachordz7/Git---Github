@@ -37,6 +37,10 @@ git commit -a -m "commit en un solo comando"
 en .env y decido hacer el commit pero dejando .env tal como estaba en el ultimo commit. Los archivos ya estan en el stage.
 ¿Que comandos ejecuto?
 
+git restore --staged .env
+git restore .env
+git commit -m "Tu mensaje de commit aquí"
+
 # Quitar .env del staging area para que no sea incluido en el commit
 git restore --staged .env
 
